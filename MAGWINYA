@@ -7,7 +7,10 @@ waitForFiveMinutes( ) {
 constant int minutes = 5; constant time_t wait_time = minutes * 60 * time;
 time_t start_time = time( ) ;
 while ((time( ) - start_time ) < wait_time);
+}
 
+int main(){
+int temperature1, temperature2, temperature3;
 
  cout<<" Enter the first temperature reading: ";
  cin>> temperature1;
