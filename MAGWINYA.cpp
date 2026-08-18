@@ -4,7 +4,8 @@
 using namespace std;
 
 waitForFiveMinutes( ) {
-constant int minutes = 5; constant time_t wait_time = minutes * 60 * time;
+constant int minutes = 5; 
+ constant time_t wait_time = minutes * 60 * time;
 time_t start_time = time( ) ;
 while ((time( ) - start_time ) < wait_time);
 }
